@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+</head>
+<body>
+    <!--info area start-->
+    <div>
+        <!--hobby 시작-->
+        <div>
+            취미 :
+             <select>
+                <option value="0">농구</option>
+                <option value="1">자전거</option>
+                <option value="2">풋살</option>
+             </select>
+        </div>
+         <!--hobby 끝-->
+        <!--gender 시작-->
+        <div>
+            성별 :
+            <!--radio는 name 속성이 같은 값의 radio 중 하나만 선택 가능-->
+            <input type="radio" value="0" name="gender" id="female" /> 
+            <label for="female">여성</label>
+            <input type="radio" value="1" name="gender" id="male"/>
+            <label for="male">남성</label>
+            <input type="radio" value="2" name="gender" id="unknown"/>
+            <label for="unknown">비공개</label>
+        </div>
+        <!--gender 끝-->
+        <!--rel 시작-->
+        <div>관계 :
+               <input type="checkbox" value="0" id="self"/> 
+               <label for="self">본인</label>
+               <input type="checkbox" value="1" id="parent"/> 
+               <label for="parent">부모</label>
+               <input type="checkbox" value="2" id="sib" />
+               <label for="sib">형제</label>
+        </div>
+        <!--rel 끝-->
+    </div>
+    <!--info area end-->  
+</body>
+</html>
